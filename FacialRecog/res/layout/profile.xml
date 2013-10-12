@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent">
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:src="@drawable/icon"
+            android:id="@+id/profileImage"
+            android:layout_height="100dp"
+            android:layout_width="100dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/profileInfo"
+            android:layout_width="wrap_content"
+            android:text="Some_User's Profile"
+            android:layout_height="wrap_content"
+            android:layout_y="7dip"
+            android:layout_x="130dip"
+            android:textStyle="bold"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/profileStatus"
+            android:layout_width="180dip"
+            android:text="Some_User's Status that is super long! Long status! wooooo!"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            android:layout_y="28dip"
+            android:layout_x="130dip">
+        </TextView>
+    </AbsoluteLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/android:list" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="empty"
+        android:id="@+id/empty" />
+</LinearLayout>

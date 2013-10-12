@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/wallPostUsername"
+        android:textSize="24dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="username"
+        android:gravity="left">
+    </TextView>
+    <TextView
+        android:id="@+id/wallPostWhatTheySaid"
+        android:textSize="16dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="what they said"
+        android:gravity="left">
+    </TextView>
+    <TextView
+        android:id="@+id/wallPostWhenTheySaidIt"
+        android:textSize="10dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="when they said it"
+        android:gravity="right"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+</LinearLayout>
